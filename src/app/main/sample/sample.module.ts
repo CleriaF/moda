@@ -7,6 +7,7 @@ import { FuseSharedModule } from '@fuse/shared.module';
 import { SampleComponent } from './sample.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const routes = [
     {
@@ -26,7 +27,8 @@ const routes = [
 
         FuseSharedModule,
         MatFormFieldModule,
-        MatIconModule
+        MatIconModule,
+        FontAwesomeModule
     ],
     exports     : [
         SampleComponent
